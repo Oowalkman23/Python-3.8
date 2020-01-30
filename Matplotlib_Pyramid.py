@@ -2,8 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
+
 def getTop(top,sides,height,p1,delta_h):
-    #Recursive process for defining height from outer layer to the core.
+    # Recursive process for defining height from outer layer to the core.
     if sides - p1 == 1:
         top[sides-1,p1] = height
         return top    
@@ -18,14 +19,14 @@ def getTop(top,sides,height,p1,delta_h):
         getTop(top,sides-1,height+delta_h,p1+1,delta_h)
 
 def printPyramid(sides,height):
-    #Set axes values
+    # Set axes values
     half = sides//2 
     x1 = np.arange(-half,half+1,1)
     y1 = x1.copy()
     x_1, y_1 = np.meshgrid(x1,y1)
     x_2, y_2 = x_1.flatten(), y_1.flatten()
     
-    #Define top (call function getTop()) and bottom values.
+    # Define top (call function getTop()) and bottom values.
     p1 = 0
     top = y_1.copy()
     delta_h = height
@@ -33,7 +34,7 @@ def printPyramid(sides,height):
     top1 = top.flatten()
     bottom = np.zeros_like(top1)
     
-    #Visualize 3D Pyramid 
+    # Visualize 3D Pyramid 
     fig = plt.figure(figsize=(9,6))
     plot1 = fig.add_subplot(111, projection='3d')
     plot1.set_title(f'Pyramid sides = {sides}\nHeight = {height}')
@@ -43,7 +44,7 @@ def printPyramid(sides,height):
     return plt.show()
 
 def main():
-    #Start.
+    # Start.
     print('\nWELCOME TO PYRAMID 3D')
     while True:
         try:
@@ -65,7 +66,7 @@ def main():
             continue
         else:
             break
-    #Print the result
+    # Print the result
     printPyramid(sides,height)
 
 main()
