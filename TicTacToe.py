@@ -106,7 +106,6 @@ def main():
         you = player(choose_player)
         bot = player(3-choose_player)
 
-        global board
         board = [['?','?','?'],['?','?','?'],['?','?','?']]
         result = 0        
         
