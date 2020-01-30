@@ -65,7 +65,8 @@ def showContact():  #Print current phonebook
     
         
 def main():
-    # The temporary phonebook 
+    # The temporary phonebook
+    global contact_database
     contact_database = []
 
     while True:
