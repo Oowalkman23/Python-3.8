@@ -2,22 +2,10 @@
 
 Hi! Welcome to my world.
 
-This repository contains scripts of mini programs that I gradually improve to achieve my goals as Professional Expert in Data Analytics.
+This repository contains scripts of mini programs and data analysis that I gradually improve to achieve my goals as Professional Expert in Data Analytics.
 While the scripts may look inefficient, feel free to review!
 
-
-======================================================================================================================
-
-||     ||  |||||||||  ||         ||         |||||||||   \\                  // ||||||||  |||||||   ||        ||||\\  
-||     ||  ||         ||         ||         ||     ||    \\                //  ||    ||  ||  //    ||        ||   \\  
-||     ||  ||         ||         ||         ||     ||     \\      /\      //   ||    ||  || //     ||        ||    \\ 
-|||||||||  |||||||||  ||         ||         ||     ||      \\    //\\    //    ||    ||  || \\     ||        ||     \\
-||     ||  ||         ||         ||         ||     ||       \\  //  \\  //     ||    ||  ||  \\    ||        ||     //
-||     ||  ||         ||         ||         ||     ||        \\//    \\//      ||    ||  ||   \\   ||        ||    //    
-||     ||  |||||||||  |||||||||  |||||||||  |||||||||         \/      \/       ||||||||  ||    \\  ||||||||  |||||//   
-
-=====================================================================================================================
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 List of mini programs that I have made up until now (UPDATED):
 
@@ -46,3 +34,12 @@ List of mini programs that I have made up until now (UPDATED):
       * Numpy, pandas, postgreSQL, matplotlib, 2D bar plotting, array manipulation, data frame manipulation, psycopg2 connection.
 
 7.  *In-Progress
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+List of data analysis that I have done up until now (UPDATED):
+
+1. Data cleaning
+2. Univariate linear regression (OLS)
+3. Multivariate linear regression (OLS)
+4. coming up...
