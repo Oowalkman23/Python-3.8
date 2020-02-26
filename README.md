@@ -42,4 +42,5 @@ List of data analysis that I have done up until now (UPDATED):
 1. Data cleaning
 2. Univariate linear regression (OLS)
 3. Multivariate linear regression (OLS)
-4. coming up...
+4. Logistic regression
+5. coming up...
